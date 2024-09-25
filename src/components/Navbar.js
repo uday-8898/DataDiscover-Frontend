@@ -21,11 +21,17 @@ const Navbar = () => {
           <span><FaMapMarkerAlt />Tower B, 11th Floor, Spaze IT Tech Park, Gurugram, India</span>
         </div>
         <div className="right-info">
-          <FaFacebookF />
-          <FaTwitter />
-          <FaInstagram />
-          <FaLinkedinIn />
-        </div>
+     
+      <a href="https://x.com/i/flow/login?redirect_after_login=%2FOn_Meridian" target="_blank" rel="noopener noreferrer">
+        <FaTwitter />
+      </a>
+      <a href="https://www.instagram.com/onmeridian/" target="_blank" rel="noopener noreferrer">
+        <FaInstagram />
+      </a>
+      <a href="https://www.linkedin.com/company/on-meridian/" target="_blank" rel="noopener noreferrer">
+        <FaLinkedinIn />
+      </a>
+    </div>
       </div>
 
       {/* Main Navbar */}
